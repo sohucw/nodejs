@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <% include header.html %>
+</head>
+<body>
+<% include nav.html %>
+<div class="container">
+    <div class="col-md-4 col-md-offset-4">
+        <h1>Welcome <%= user.username %></h1>
+        <a claa="btn" href="/logout">Logout</a>
+    </div>
+</div>
+
+<% include footer.html %>
+</body>
+</html>

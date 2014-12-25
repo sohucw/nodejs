@@ -1,0 +1,30 @@
+{
+  "name": "node_express_demo",
+  "version": "0.1.0",
+  "authors": [
+    "linder0209 <linder0209@126.com>"
+  ],
+  "description": "This is a node express demo.",
+  "main": "app.js",
+  "keywords": [
+    "node",
+    "express",
+    "demo"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "bootstrap": "*",
+    "html5shiv": "*",
+    "respond": "*",
+    "angular": "*"
+  },
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/components",
+    "test",
+    "tests"
+  ]
+}
